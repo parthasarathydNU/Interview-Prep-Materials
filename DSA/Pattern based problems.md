@@ -5,6 +5,9 @@ https://www.linkedin.com/posts/riti-nema-707b1719b_dsa-softwareengineer-leetcode
 
 Dynamic Programming Patterns: https://leetcode.com/discuss/study-guide/458695/Dynamic-Programming-Patterns#Decision-Making
 
+DP Youtube Best Series: 
+https://www.youtube.com/playlist?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
+
 Monotonic stack problems: https://leetcode.com/problems/sum-of-subarray-minimums/solutions/178876/stack-solution-with-very-detailed-explanation-step-by-step/
 
 Tree Patterns: 

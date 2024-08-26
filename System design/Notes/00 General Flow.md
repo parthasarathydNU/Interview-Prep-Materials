@@ -18,3 +18,6 @@ This way there is plenty of time to do the hight level design and deep dives
 Considerations: 
 - CAP Theorm ?
 - Read Write Ratio ?
+
+
+https://excalidraw.com/#room=233632018310a6d98df3,kBsIptqcN2vqO5jsNOALiQ
