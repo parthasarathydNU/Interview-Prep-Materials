@@ -21,4 +21,4 @@ Now we have implemented a Least Recently Used Cache and made it run as separate 
 
 The cache clients can call this cache process either using a TCP or a UDP connection.  But how do cache clients decide which cache shard to call first.
 
-GoTo [[Choosing a Host]]
+GoTo [[03 Choosing a Host]]

@@ -23,4 +23,4 @@ We need some kind of queue with constant time for add update and delete operatio
 
 ![[Pasted image 20240826015105.png]]
 
-GoTo [[Making it Distributed]]
+GoTo [[02 Making it Distributed]]
