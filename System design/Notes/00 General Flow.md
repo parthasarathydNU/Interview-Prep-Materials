@@ -21,3 +21,8 @@ Considerations:
 
 
 https://excalidraw.com/#room=233632018310a6d98df3,kBsIptqcN2vqO5jsNOALiQ
+
+
+### Guidelines
+
+Always start with a simple solution first and eventual identify problem areas and evolve it towards the requirements along the interview
