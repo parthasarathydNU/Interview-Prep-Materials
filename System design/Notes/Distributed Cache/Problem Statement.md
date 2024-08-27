@@ -15,4 +15,4 @@ Why do we need a Distributed Cache ?
 - And we will need to split the data and store it across several machines
 
 
-Go to [[Local Cache Implementation]]
+Go to [[01 Local Cache Implementation]]
