@@ -109,3 +109,5 @@ Citations:
 [6] https://cassandra.apache.org/doc/3.11/cassandra/data_modeling/intro.html
 [7] https://www.ksolves.com/blog/big-data/apache-cassandra/apache-cassandra-scaling-guide-why-does-scalability-matter
 [8] https://stackoverflow.com/questions/30610535/how-to-ensure-that-consistent-hashing-works
+
+Go To [[13 Consistency]]

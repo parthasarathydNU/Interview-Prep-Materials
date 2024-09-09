@@ -26,3 +26,5 @@ But in this case all nodes know about all other nodes, so clients of this databa
 - And similar to Distributed SQL data centers, each node in this set up can have its follower nodes across several data centers
 
 ![Distributed NoSQL Database Cassandra](../Images/DistributedNoSQLDatabase.png)
+
+Go To [[12 Concepts related to replication and quorum]]

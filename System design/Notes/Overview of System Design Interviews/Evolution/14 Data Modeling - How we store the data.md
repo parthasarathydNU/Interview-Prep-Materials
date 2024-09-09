@@ -26,3 +26,17 @@ And to create the report mentioned above, we create a JOIN table, that retrieves
 - In Normalized representation of data, data duplication across tables in minimized: Example, `VideoInfo Table` only has information such as `name, description, userId, ChannelId` etc.. and we don't store this information in any other table
 - Because if some `Video Name` changes, we will have to change it in several places, that may lead to inconsistent data
 - Therefore normalization is good for relational databases
+
+#### NoSQL Databases Promote a Different Paradigm
+
+While working with NoSQL Databases, the idea is not to think from `nouns` but from `queries` that we will be executing. 
+
+It is about how we store the data, and instead of having separate tables, for each entity, we have a single data for storing the data in the exact form that is required to be retrieved by the query. Denormalization is perfectly normal and there is nothing to be afraid of.
+
+In Cassandra, the report mentioned above is stored as mentioned in the following table: 
+
+![DeNormalized Data Storeage In NoSQL](../Images/DeNormalizedDataStoreageForNoSQL.png)
+
+**Instead of adding rows as in relational database, we keep adding columns for every next hour !**
+
+Go To [[15 Types of NoSQL Databases]]

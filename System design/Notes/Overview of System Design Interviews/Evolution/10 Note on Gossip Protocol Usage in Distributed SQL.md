@@ -41,3 +41,5 @@ Citations:
 [5] https://www.youtube.com/watch?v=WEHM_xU2A0Y
 [6] https://www.reddit.com/r/golang/comments/11e1c9m/i_completed_gossip_glomers_a_series_of/
 [7] https://www.linkedin.com/pulse/gossip-protocol-failure-detection-distributed-systems-gaurav-pandey
+
+Go To [[11 NoSQL Apache Cassandra]]
