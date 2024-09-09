@@ -1,25 +1,10 @@
-In NoSQL World also we split the data into chunks - shards, also known as nodes.
-
-- Here instead of having leaders and followers, we say each shard is equal
-- Instead of having a configuration service we allow shards to speak to each other sharing information about their state
-- Further to reduce network load, we don't need each shard to talk to every other shard
-- Every second a shard may exchange information with a few other shards using peer to peer communication, no more than three other nodes
-- Quickly enough, information about every shard propagates throughout the cluster, this procedure is called the [`Gossip Protocol`](https://www.geeksforgeeks.org/gossip-protocol-in-cassandra/)
-
-In the previous SQL based approach, we used a cluster proxy component, to route request a specific shard as only the cluster proxy knows information about which node contains which shard.
-
-But in this case all nodes know about all other nodes, so clients of this database no longer need a separate proxy to decide which shard to send the request to, but rather can randomly pick any given shard and send the request, and the shards internally can decide which shard to route the data to.
-
-There are actually several distributed SQL systems that do utilize gossip protocols for communication and coordination. However, gossip protocols are not universally adopted in distributed SQL databases for a few key reasons:
-
-## Note on Gossip Protocol Usage in Distributed SQL
-
 Some distributed SQL systems that employ gossip protocols include:
 
 - Cassandra: Uses gossip for node discovery, failure detection, and propagating schema changes[1][4].
 - CockroachDB: Utilizes gossip for cluster metadata dissemination[1].
 - TiDB: Employs gossip for node status updates and topology changes[1].
 
+There are actually several distributed SQL systems that do utilize gossip protocols for communication and coordination. However, gossip protocols are not universally adopted in distributed SQL databases for a few key reasons:
 ## Reasons for Limited Adoption
 
 ### 1. Consistency Requirements

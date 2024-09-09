@@ -58,4 +58,5 @@ Resources to learn about Vitess:
 
 We have seen how we can scale a SQL database, but this option does not seem simple. We have all these proxies, configuration services and replication that we need to take care of to keep our systems up and running. Can we simplify things a little bit. Let's have a look at what NoSQL Databases can offer us, in specific the Apache Cassandra Database
 
-[[10 NoSQL Apache Cassandra]]
+
+[[11 NoSQL Apache Cassandra]]

@@ -75,6 +75,7 @@ Another idea is to , make cache servers responsible for picking the shard.  The 
 - This could very well be a cause for the problem of hot shards
 - One simple idea is to add each server 
 
+
 To resolve ths issues in Consistent hashing, there are some techniques introduced
 
 1. Is to add each server on the circle multiple times - how does this help ? 
