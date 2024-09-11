@@ -15,3 +15,12 @@ Feel free to use this template for other interview questions and system design i
 - How to ensure data security ?
 - How to make it extensible for data model changes in the future ?
 - Where to run (cloud vs on-premise data centers) ?
+
+Further Refer to 
+- [[09 SQL Databases]]  
+- [[11 NoSQL Apache Cassandra]] 
+- [[15 Types of NoSQL Databases]] 
+- [[17 Data Aggregation Basics]]
+- [[06 Fact Tables vs Dimension Tables]]
+
+For further reading
