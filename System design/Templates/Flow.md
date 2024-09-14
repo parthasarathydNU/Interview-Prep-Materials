@@ -64,3 +64,5 @@ Ask for consensus- do a rough check if we meet non functional requirements
 Ask for consensus- do a rough check if we meet non functional requirements 
 
 Prepare questions for interviewer
+
+/home/ec2-user/.local/bin/uvicorn main:app --host 0.0.0.0 --port 8000
