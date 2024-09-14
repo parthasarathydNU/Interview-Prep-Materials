@@ -1,68 +1,20 @@
-Practice with timer
+| Time (min) | Task                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.5        | Intro from senior engineer perspective - Prepare                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 3          | Questions to understand the system better <br>- [ ] Users and how it will be used<br>- [ ] Number of servers<br>- [ ] Storage requirements<br>- [ ] Geographies and localization                                                                                                                                                                                                                                                                                                                        |
+|            | VALIDATE UNDERSTANDING OF SYSTEM                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 5          | - [ ] Functional Requirements<br>- [ ] APIs -  !!!! Talk about various API types and what works best for this design                                                                                                                                                                                                                                                                                                                                                                                    |
+| 8          | - [ ] List all possible Failure modes !!!!<br>- [ ] Behavior of system for failure modes                                                                                                                                                                                                                                                                                                                                                                                                                |
+|            | VALIDATE FUNCTIONALITY OF SYSTEM AND EDGE CASE BEHAVIOR                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 12         | - [ ] Data model<br>- [ ] Data base options !!!! and tradeoffs mention and select                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 15         | Whats the behavior in terms of <br>- [ ] Availability : Mention what it means And associate number - 24/7 .. (n 9s)<br>- [ ] Scalability : !!!! Talk about peaks here, when it would peak. # of servers, QPS<br>- [ ] Consistency : Geographical partition<br>- [ ] Durability : Speak in terms of failure modes<br>- [ ] Latency : In terms of p90  90% of requests within 1s<br>- [ ] Performance : Speak in terms of %                                                                               |
+|            | VALIDATE SYSTEM BEHAVIOR                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 20         | Change management and Ops<br>- [ ] User interface - Mention very briefly<br>- [ ] Change in code - CI/CD - With tests<br>- [ ] Change in data - Admin Dashboard / Portal<br>- [ ] Monitoring - what metrics - Rate, errors, Latency, Resource utilization<br>- [ ] Testing - Different test types and how I would perform it<br>- [ ] Logging - How<br>- [ ] Security<br>- [ ] Data Privacy <br>- [ ] Localization - formats, language<br>- [ ] Ease of integration within other services if applicable |
+|            | GET ALIGNMENT ON SYSTEM SO FAR                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 25         | - [ ] Quickly draw a simple box model that satisfies all requirements                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 30         | - [ ] Validate diagram matches Functional requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 35         | - [ ] Validate how system meets Non-Functional requirement                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 38         | - [ ] Explain how system meets Failure Modes                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 40         | - [ ] Map system to requirements <br>- [ ] Discuss limitations and future improvements<br>- [ ] Final validation and questions                                                                                                                                                                                                                                                                                                                                                                          |
 
-You are having a system design meet where you are called on to provide expertise and help them understand how to design the system
-- give them data points so they will want to work with you
-- Build the system with them
-- You drive the discussion and they assist by answering questions 
-
---——————————- Start ———————————
-
- - 5 minutes Understanding the system by asking questions 
- - 5 minutes - understanding performance and storage requirements- back of hand calcs
- - 10 minutes
-	 - functional requirements and API
-	 - Rough model of the data
- - 5 minutes
-	 - Non functional requirements listing  
-	 - CAP theorem discussion 
-
---———————-25 minute mark—————————
-
-Remaining 30 minutes
-
-5 minutes 
-- Start by building blocks that would solve the functional requirements 
-- Refine the data model along the way
-- iteratively visit system functional requirements 
-- functional until we have the building blocks ready
-
-Ask for consensus- do a rough check if we meet functional requirements 
-
---———————- 30 minute mark —————————
-
-- Have functional design ready 
-
-Begin designing for non functional requirements 
-
-15 minutes
-- Iteratively improving the system to move towards the non functional requirements 
-- Driven by cap theom
-- Design for various ility requirements 
-- Discussing trade offs 
-- demonstrating depth of knowledge 
-- Interact with interviewer
-
-Ask for consensus- do a rough check if we meet non functional requirements 
-
---———————— 45 minute mark —————————
-
-5 minutes 
-- What else
-- Talk about security 
-- Monitoring 
-- Observability
-- Cost
-- Ease of integration with other systems
-- Testing
-
-5 minutes
-- Summarize what we have seen so far and map the current system to the defined non functional requirements 
-- talk about future of this system and current limitations 
-
---———————— 55 minute mark —————————-
-
-Ask for consensus- do a rough check if we meet non functional requirements 
-
-Prepare questions for interviewer
-
-/home/ec2-user/.local/bin/uvicorn main:app --host 0.0.0.0 --port 8000
+This compressed version maintains the key elements of the system design process while fitting within a 40-minute timeframe. The introduction sets the stage for the discussion, establishing the interviewee's expertise and approach to the design process.
