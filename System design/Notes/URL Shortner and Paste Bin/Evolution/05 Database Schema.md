@@ -19,7 +19,7 @@ We will need
 - Not sure if we want to store Raw Events in a database as it might grow exponentially in size, it is good to have raw events in a reliable store for a given period of time in case we want to re run aggregations but it can be purged after a set expiry time
 - Url stats table that will store aggregated url stats over different time periods
 
-![[UrlShortnerDataModel]]
+![[UrlShortner.excalidraw]]
 
 Reading: [[06 Fact Tables vs Dimension Tables]]
 
