@@ -1,14 +1,15 @@
 import threading
 from typing import Optional
+from Entities.Driver import Driver
 
-class RiderManager:
+class DriverManager:
 
     # Variables to manage singleton property
     _instance = None
-    _lock = threading.lock()
+    _lock = threading.Lock()
 
     # Class variables
-    _ridersMap = dict()
+    _driversMap = dict()
 
     # We do not allow calling the constructor
     # To enforce singleton design pattern
@@ -16,7 +17,7 @@ class RiderManager:
         raise RuntimeError('Call get_instance() instead')
 
     @classmethod
-    def get_instance(thisClass):
+    def get_instance(cls):
         """
         The `classmethod` decorator is used to convert
         a method to a static method
@@ -24,19 +25,19 @@ class RiderManager:
         By default is gets the currentClass object as 
         the first parameters
         """
-        if thisClass._instance is None:
+        if cls._instance is None:
             # initialize the instance here
             # Steps to configure this instance
             
-            with thisClass._lock:
+            with cls._lock:
                 
                 # We check again to ensure this class instance was not initialized
                 # by some other thread
-                if not thisClass._instance:
-                    thisClass._instance = thisClass.__new__(thisClass)
-                    thisClass._instance._initialize()
+                if not cls._instance:
+                    cls._instance = cls.__new__(cls)
+                    cls._instance._initialize()
                     
-        return thisClass._instance
+        return cls._instance
 
     # PRIVATE METHODS on class instance
     def _initialize(self):
@@ -44,9 +45,12 @@ class RiderManager:
         pass
     
     # PUBLIC METHODS on class instance
-    def addRider(self, riderName: str, rider: Rider):
-        self._ridersMap[riderName] = rider
-        print(f"Rider {riderName} added to {self.__class__.__name__}")
+    def addDriver(self, driverName: str, driver: Driver):
+        self._driversMap[driverName] = driver
+        print(f"Driver {driverName} added to {self.__class__.__name__}")
 
-    def getRider(self, riderName: str) -> Optional[Rider]:
-        return self._ridersMap[riderName]
+    def getDriver(self, driverName: str) -> Optional[Driver]:
+        return self._driversMap[driverName]
+
+    def getDriversMap(self) -> dict:
+        return self._driversMap
