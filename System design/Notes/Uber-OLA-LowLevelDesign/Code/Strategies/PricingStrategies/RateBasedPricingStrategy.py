@@ -1,4 +1,4 @@
-from InterfaceAPIs.StrategyAPIs import PricingStrategy
+from InterfaceAPIs.StrategyAPIs.PricingStrategy import PricingStrategy
 from Entities import TripMetaData
 from Util.ratingUtil import isHighRating
 

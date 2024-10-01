@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
-from Entities import TripMetaData, Driver
+from Entities.TripMetaData import TripMetaData
+from Entities.Driver import Driver
 
 class DriverMatchingStrategy(ABC):
     @abstractmethod

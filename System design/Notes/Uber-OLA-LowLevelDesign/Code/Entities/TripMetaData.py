@@ -1,6 +1,5 @@
 from Entities.Location import Location
-from Code.Enums.Rating import Rating
-
+from Enums.Rating import Rating
 
 class TripMetaData:
 

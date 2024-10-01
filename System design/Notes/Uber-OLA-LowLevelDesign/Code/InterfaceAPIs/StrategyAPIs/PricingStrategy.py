@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from Entities import TripMetaData
+from Entities.TripMetaData import TripMetaData
 
 class PricingStrategy(ABC):
     @abstractmethod

@@ -1,7 +1,7 @@
 from typing import Optional
 from Entities.Driver import Driver
 from Entities.TripMetaData import TripMetaData
-from InterfaceAPIs.StrategyAPIs import DriverMatchingStrategy
+from InterfaceAPIs.StrategyAPIs.DriverMatchingStrategy import DriverMatchingStrategy
 from EntityManagerSingletonClasses.DriverManager import DriverManager
 
 class LeastTimeBasedDriverMatchingStrategy(DriverMatchingStrategy):
