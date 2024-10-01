@@ -1,5 +1,7 @@
 [YouTube Video](https://youtu.be/j84w5VM9GT8) 
 
+Closely Related Read: [[01 OOP]]
+
 [[UMLDiagram.excalidraw]]
 
 In situations when we are designing high level systems, we usually see people drawing boxes with names in them. These are fine when we are designing the high level architecture but not when we are working on designing systems at the Class / Object level.
