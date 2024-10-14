@@ -20,7 +20,7 @@ Browsers are only built to read regular JS objects. React uses Babel internally 
 - Changes to state or props of a component lead to creation of a new virtual DOM tree, which is compared to the previous one
 - The diffs are computed and only the necessary changes are batched and applied to the actual DOM
 - Reconciliation process - ensures only parts of the DOM that need updates are changed - minimizes performance impact of updates
-- Updates are batched and applied in one go , this reduces number of repaints required
+- Updates are batched and applied in one go , thia
 
 ### What are synthetic events in React ?
 - A synthetic event is an object which acts as a cross-browser wrapper around the browser's native event
@@ -86,7 +86,7 @@ A component is said to be "controlled" when important information in it is drive
 
 In practice it is up to the developer to decide which information should be controlled via props and which should be controlled via the state.
 
-### Preservice and Resetting State
+### Preserving and Resetting State
 
 #### Same component at the same position preserves state
 
@@ -122,7 +122,7 @@ React doesn’t know where you place the conditions in your function. All it “
 > As a rule of thumb, **if you want to preserve the state between re-renders, the structure of your tree needs to “match up”** from one render to another. If the structure is different, the state gets destroyed because React destroys state when it removes a component from the tree.
 
 
-However, adding a key to the component, causes it to act as completely new components in the same position, so that state does not get shaerd 
+However, adding a key to the component, causes it to act as completely new components in the same position, so that state does not get shared 
 
 ```
 {isPlayerA ? (  
