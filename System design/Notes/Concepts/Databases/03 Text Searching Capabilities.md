@@ -31,7 +31,7 @@ So we can provide a level of fuzziness that the database has to support to provi
 
 —————————————————————————————————————————————————-
 
-So wherever we need search capablities, we either use Elastic Search or Solr. And reiterating, these are not databases, but rather Search engines. 
+So wherever we need search capabilities, we either use Elastic Search or Solr. And reiterating, these are not databases, but rather Search engines. 
 
 > **The difference between a search engines and a database is that, whenever we write something in a database, it gives us a `guarantee` that the data would not be lost.**
 

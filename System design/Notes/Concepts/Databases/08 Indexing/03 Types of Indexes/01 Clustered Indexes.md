@@ -1,7 +1,7 @@
 
 A table can be stored either as a HEAP or with a `Clustered Index`.
 
-### Heap
+### Heap - unsorted order faster inserts
 - Stored on disk in a non-sorted order
 - Faster to insert data into
 - Slower to read data from 
